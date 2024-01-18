@@ -1,0 +1,55 @@
+/*CSS reset*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Kanit', sans-serif;
+	background-image: url("./images/background.jpg");
+	background-repeat: repeat-y;
+	background-size: 100vw;
+}
+
+.text-color {
+	color: #EBE3D5;
+}
+
+#projects {
+	background-color: #776B5D;
+}
+
+#tools {
+	background-color: #EBE3D5;
+}
+
+.project-img {
+	width: 500px;
+	height: 500px;
+}
+
+.logo-img {
+	width: 50px;
+	height: 50px;
+}
+
+.profile-img {
+	width: 600px;
+	height: 600px;
+}
+
+figcaption > div {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	border-radius: 50px 20px;
+}
+
+.project-text {
+	background: linear-gradient(rgba(243, 238, 234, 0.5), rgba(243, 238, 234, 0.5));
+	border-radius: 50px 20px;
+}
+
+
+
+
+
